@@ -1,7 +1,7 @@
 from src.customer import Customer
 from src.drink import Drink
 class Pub:
-    def __init__(self, name, till):
+    def __init__(self, name, till, drinks):
         self.name = name
         self.till = till
         self.drinks = ["Blue Dragon"]

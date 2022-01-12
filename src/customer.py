@@ -3,7 +3,7 @@ class Customer:
         self.name = name
         self.wallet = wallet
 
-    def pay_till(self, amount):
+    def reduce_wallet(self, amount):
         self.wallet -= amount
 
     

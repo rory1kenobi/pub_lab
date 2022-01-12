@@ -9,7 +9,7 @@ class TestCustomer(unittest.TestCase):
     def test_customer_has_name(self):
         self.assertEqual("Rory Smith", self.customer.name)
 
-    def test_pay_till(self):
-        self.customer.pay_till(8.00)
+    def test_reduce_wallet(self):
+        self.customer.reduce_wallet(8.00)
         self.assertEqual(992.00, self.customer.wallet)
 
